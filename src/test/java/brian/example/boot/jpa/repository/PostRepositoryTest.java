@@ -15,8 +15,8 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import brian.template.boot.jpa.domain.hibernate.Post;
-import brian.template.boot.jpa.repository.hibernate.PostRepository;
+import brian.example.boot.jpa.domain.hibernate.Post;
+import brian.example.boot.jpa.repository.hibernate.PostRepository;
 
 @ActiveProfiles("test")
 @RunWith(SpringJUnit4ClassRunner.class)
